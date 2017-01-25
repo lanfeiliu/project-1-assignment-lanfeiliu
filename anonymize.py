@@ -76,7 +76,6 @@ for k in d_email_id:
 	# str_f3 = str_f2.replace('%%' + str_email_id + '%%', k)
 	# str_f3 = re.sub(r'%%{0}%%'.format(str_email_id),k,str_f2)
 	str_f2 = str_f2.replace('%%', '')
-	# if d_email_id[k] in str_f2:
 	str_f2 = str_f2.replace(str_email_id, k)
 
 
